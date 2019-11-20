@@ -3,6 +3,8 @@ package Cesar;
 public class Descifrador {
 
     private static int desplazamientoN = 0;
+    
+    //Tabla de las letras que se reemplazarán
     char tablaCesar[] = {
         'A', 'B', 'C', 'D', 'E',
         'F', 'G', 'H', 'I', 'J',
@@ -17,6 +19,7 @@ public class Descifrador {
         'w', 'x', 'y', 'z'
     };
 
+    //Determinamos la longitud del cifrado y lo retornaremos
     public char getTextoClaro(char parTextoCifrado) {
         int indiceX = 0;
 

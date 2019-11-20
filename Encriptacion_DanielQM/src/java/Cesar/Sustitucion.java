@@ -14,6 +14,7 @@ public class Sustitucion {
         descifrador.setDesplazamientoN(desplazamientoN);
     }
 
+    //Encriptamos la cadena que le enviamos
     public String encriptarTextoClaro(String textoClaro) {
         String textoCifrado = "";
         for (int i = 0; i < textoClaro.length(); i++) {
@@ -26,6 +27,7 @@ public class Sustitucion {
         return textoCifrado;
     }
 
+    //Desencripta la cadena
     public String desencriptarTextoCifrado(String textoCifrado) {
         String textoClaro = "";
         for (int i = 0; i < textoCifrado.length(); i++) {
