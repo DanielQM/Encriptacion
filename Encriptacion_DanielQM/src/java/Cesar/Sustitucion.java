@@ -1,7 +1,5 @@
 package Cesar;
 
-import Cifrado.Cifrador;
-import Cifrado.Descifrador;
 
 public class Sustitucion {
 
